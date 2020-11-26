@@ -1,0 +1,46 @@
+@media (min-width: 375px) and (min-height: 700px) {
+    .tarif-hours .field-btn-group__btn {
+        height: 36px; /* 36x1.5 */
+        font-size: 15px; /* 15+1 */
+    }
+}
+
+@media (min-width: 320px) {
+    .tarif-slider__slide {
+        height: 109px;
+    }
+}
+
+@media (min-width: 375px) {
+    .tarif-slider__slide {
+        height: 182px;
+    }
+}
+
+@media (min-height: 700px) and (min-width: 375px) {
+    .tarif-slider__slide {
+        height: 196px;
+    }
+}
+
+@media (min-width: 411px) and (min-height: 731px) {
+    .tarif-slider__slide {
+        height: 148px;
+    }
+}
+
+@media (min-height: 736px) and (min-width: 414px) {
+    .tarif-slider__slide {
+        height: 150px;
+    }
+}
+
+@media (min-height: 1024px) and (min-width: 768px) {
+    .tarif-slider__slide {
+        height: 300px;
+    }
+}
+
+.tarif-hours__note {
+    width: 265px;
+}

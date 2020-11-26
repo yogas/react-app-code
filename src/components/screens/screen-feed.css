@@ -1,0 +1,15 @@
+.car-info__driver-image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: white;
+    border-radius: 360px;
+    -webkit-border-radius: 360px;
+    width: 39px;
+    height: 39px;
+}
+
+.driver-name {
+    width: 100px;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,27 @@
+.training-slider .alice-carousel {
+    width: 100%;
+}
+
+.training-slider__slide {
+    width: 85%;
+    height: 79vh;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.alice-carousel__dots-item:hover, .alice-carousel__dots-item {
+    background-color: #6F7981;
+}
+
+.alice-carousel__dots-item.__active {
+    background-color: #edc063;
+}
+
+@media (max-height: 568px) {
+    .first-screen-instruction .training-slider__slide {
+        height: 78vh;
+    }
+}
+

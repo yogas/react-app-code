@@ -1,0 +1,28 @@
+.info-instruction .training-slider__slide {
+    height: 78vh;
+}
+
+.info-instruction .alice-carousel__dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+}
+
+@media (max-height: 736px) {
+    .info-instruction .training-slider__slide {
+        height: 75vh;
+    }
+}
+
+@media (max-height: 667px) {
+    .info-instruction .training-slider__slide {
+        height: 74vh;
+    }
+}
+
+@media (max-height: 568px) {
+    .info-instruction .training-slider__slide {
+        height: 68vh;
+    }
+}
